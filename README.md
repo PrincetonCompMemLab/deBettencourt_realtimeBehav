@@ -5,7 +5,14 @@ Expt1.ipynb : python notebook that replicates all analyses for Experiment 1
 
 Expt2.ipynb : python notebook that replicates all analyses for Experiment 2
 
+<br>
 
+Click the badge to launch the python notebooks:
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/princetoncompmemlab/debettencourt_realtimebehav)
+
+
+<br> 
 Some details on the file organization:
 
 - data_expt1: contains all data files for Experiment 1. 
