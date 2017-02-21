@@ -1,3 +1,4 @@
+import sys
 import os
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
@@ -8,8 +9,13 @@ import numpy as np
 
 def make_plot_pretty(ax,xt=None,xtl=None,xl=None,ylim=None,yt=None,yl=None,ytl=None,xlim=None,ylrot=None,t=None,legend=None):
     
-    if os.path.isfile("/Library/Fonts/HelveticaNeue.ttf"): prop = fm.FontProperties(fname='/Library/Fonts/HelveticaNeue.ttf')    
-    else: prop = fm.FontProperties(fname='/Library/Fonts/Arial.ttf')   
+    if sys.platform == 'darwin'
+        if os.path.isfile("/Library/Fonts/HelveticaNeue.ttf"): 
+            prop = fm.FontProperties(fname="/Library/Fonts/HelveticaNeue.ttf")
+        else:
+            prop = fm.FontProperties(fname="/Library/Fonts/Arial.ttf") 
+    else:
+        prop = fm.FontProperties()  
         
     ax.spines['bottom'].set_linewidth(1)
     ax.spines['bottom'].set_color("gray")
