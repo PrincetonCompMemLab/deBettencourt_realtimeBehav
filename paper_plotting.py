@@ -9,7 +9,7 @@ import numpy as np
 
 def make_plot_pretty(ax,xt=None,xtl=None,xl=None,ylim=None,yt=None,yl=None,ytl=None,xlim=None,ylrot=None,t=None,legend=None):
     
-    if sys.platform == 'darwin'
+    if sys.platform == 'darwin':
         if os.path.isfile("/Library/Fonts/HelveticaNeue.ttf"): 
             prop = fm.FontProperties(fname="/Library/Fonts/HelveticaNeue.ttf")
         else:
