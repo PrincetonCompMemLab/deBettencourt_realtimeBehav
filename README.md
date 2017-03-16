@@ -23,7 +23,9 @@ Click the badge to launch the python notebooks:
 Some details on the file organization:
 
 - data_expt1/ contains all data files for Experiment 1. 
-- data_expt2/ contains all data files for Experiment 2. Each subject has a subfolder with their subject #
+- data_expt2/ contains all data files for Experiment 2.
+
+Each subject has a subfolder with their subject #
 
 Within each data folder, each subject has a subfolder with their #
 
